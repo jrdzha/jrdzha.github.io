@@ -30,18 +30,18 @@
     <!--PRELOADER-->
     <div id="preloader">
       <div id="status">
-        <img alt="logo" src="images/logo2.png">
+        <!-- <img alt="logo" src="images/logo2.png"> -->
       </div>
     </div>
     <!--/.PRELOADER END-->
 
     <!--HEADER -->
     <div class="header">
-      <div class="for-sticky">
+      <!-- <div class="for-sticky">
         <div class="col-md-2 col-xs-6 logo">
           <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo2.png"></a>
         </div>
-      </div>
+      </div> -->
       <div class="menu-wrap">
         <nav class="menu">
           <div class="menu-list">
@@ -88,7 +88,7 @@
     <!--/.HEADER END-->
     
     <!--CONTENT WRAP-->
-    <div class="content-wrap">
+    <div class="content-wrap" id="intro">
       <!--CONTENT-->
       <div class="content">
         <!--HOME-->
@@ -129,7 +129,8 @@
                       <p class="head-about">
                         I fell in love with programming at a very early age -- when it was introduced to me in computer class during third grade. 
                         While we only had computer class twice a week, I always looked forward to those days. The first project I had ever published was a 
-                        <a href="https://doc.terrapinlogo.com/doku.php/logolib:guess_number"><b>Number Guessing Game</b></a> in sixth grade.
+                        <a href="https://doc.terrapinlogo.com/doku.php/logolib:guess_number"><b>Number Guessing Game</b></a> that I worked on in my free 
+                        time in sixth grade.
                       </p>
                       <h5 class="name">
                         i.
@@ -146,7 +147,7 @@
                       </h5>
                       <p class="head-about">
                         I was always fascinated by how video games could "react" to players in ways that movies could not, and, at the time, I was obsessed 
-                        with the game Pokemon. So I resolved to teach myself how to make games. I began reading the official Java 8 Reference Book, and 
+                        with the game Pokemon. So I resolved to teach myself how to make games. I began by reading the official Java 8 Reference Book, and 
                         for the longest time, I couldn't wrap my mind around Object Oriented Programming.
                       </p>
                       <h5 class="name">
@@ -566,47 +567,48 @@
                   <span>Skills</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  I have been fascinated by computers and software since an early age, and I've 
+                  developed strong competency in many areas. But don't take my word for it, check out my portfolio.
                 </p>
               </div>
               <div class="col-md-9 content-right">
                 <!--SKILLST-->
                 <div class="skillst">
-                  <div class="skillbar" data-percent="78%">
+                  <div class="skillbar" data-percent="85%">
                     <div class="title head-sm">
-                      HTML 5
+                      Software Engineering
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="91%">
+                  <div class="skillbar" data-percent="60%">
                     <div class="title head-sm">
-                      CSS 4
+                      Data Science
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="58%">
+                  <div class="skillbar" data-percent="45%">
                     <div class="title head-sm">
-                      jQuery
+                      SQL & MongoDB
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="63%">
+                  <div class="skillbar" data-percent="75%">
                     <div class="title head-sm">
-                      PHP
+                      Game Development
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="95%">
+                  <div class="skillbar" data-percent="60%">
                     <div class="title head-sm">
-                      Photoshop
+                      Machine Learning
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -939,5 +941,17 @@
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    
+    <script src="dist/three.min.js"></script>
+    <script src="dist/vanta.birds.min.js"></script>
+    <script>
+    VANTA.BIRDS({
+      el: "#intro",
+      backgroundColor: 0xffffff,
+      color1: 0x2c00ff,
+      speedLimit: 5.00,
+      quantity: 4.00
+    })
+    </script>
   </body>
 </html>
