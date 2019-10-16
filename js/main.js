@@ -28,6 +28,7 @@
       $(this).addClass('active');
  
       var target = this.hash;
+      console.log($(target));
       $target = $(target);
       $('html, body').stop().animate({
         'scrollTop': $target.offset().top+2
