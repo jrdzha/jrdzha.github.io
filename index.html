@@ -907,7 +907,7 @@
               <div class="col-md-1">
               </div>
               <div class="col-md-10 content-right">
-                <form method="post" action="https://formspree.io/jared@jaredzhao.com">
+                <!-- <form method="post" action="https://formspree.io/jared@jaredzhao.com">
                   <div class="group">
                     <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
@@ -918,6 +918,14 @@
                     <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
                   </div>
                   <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                </form> -->
+                <form
+                  action="https://formspree.io/jared@jaredzhao.com"
+                  method="POST">
+                  <input type="text" name="name">
+                  <input type="email" name="_replyto">
+                  <br>
+                  <input type="submit" value="Send">
                 </form>
               </div>
               <div class="col-md-1">
