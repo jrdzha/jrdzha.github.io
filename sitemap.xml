@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>jaredzhao.com/posts/dependency-phobia/</loc>
+    <loc>/posts/dependency-phobia/</loc>
     <lastmod>2020-12-15T11:10:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>jaredzhao.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-12-15T11:10:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>jaredzhao.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-12-15T11:10:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>jaredzhao.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>jaredzhao.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
