@@ -1,6 +1,0 @@
-93,94c93,94
-<         strings: ["My name is Jared.", "I'm interested in:", "Data Science.", "Machine Learning.", "Entrepreneurship.", "", "I love:", "Cold Mornings.", "Espresso.", "Game Development.", ""],
-<         typeSpeed: 30,
----
->         strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
->         typeSpeed: 100,

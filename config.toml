@@ -1,0 +1,7 @@
+baseURL = "https://jaredzhao.com/"
+languageCode = "en-us"
+title = "Jared Zhao"
+theme = "detox"
+[Params]
+    twitter_name = "jrdzha_"
+    github = "jrdzha"
