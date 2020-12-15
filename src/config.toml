@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://www.jaredzhao.com"
 languageCode = "en-us"
 title = "Jared Zhao"
 theme = "detox"
