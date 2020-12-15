@@ -1,2 +1,3 @@
+rm -r ./public
 hugo -D
-git subtree push --prefix public origin gh-pages
+git push origin `git subtree split --prefix public master`:gh-pages --force

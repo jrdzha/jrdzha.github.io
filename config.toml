@@ -1,7 +1,8 @@
-baseURL = "https://jaredzhao.com/"
+baseURL = "https://jrdzha.github.io/"
 languageCode = "en-us"
 title = "Jared Zhao"
 theme = "detox"
+publishDir = "docs"
 [Params]
     twitter_name = "jrdzha_"
     github = "jrdzha"
