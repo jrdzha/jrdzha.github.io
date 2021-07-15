@@ -1,8 +1,0 @@
-baseURL = "https://www.jaredzhao.com/"
-languageCode = "en-us"
-title = "Jared Zhao"
-theme = "detox"
-publishDir = "../"
-[Params]
-    twitter_name = "jrdzha_"
-    github = "jrdzha"
